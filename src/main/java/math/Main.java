@@ -12,7 +12,7 @@ public class Main {
         System.out.print("Введите второе число: ");
         int num2 = scanner.nextInt();
 
-        int mult = num1 * num2;
-        System.out.println("Произведение чисел равна: " + mult);
+        int difference = num1 - num2;
+        System.out.println("Разность чисел равна: " + difference);
     }
 }
